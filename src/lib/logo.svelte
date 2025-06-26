@@ -1,6 +1,6 @@
 <script></script>
 <div>
-    <div class="logo">FEUER</div>
+    <div class="logo">恋してる</div>
 </div>
 <style> 
     .logo{

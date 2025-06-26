@@ -1,15 +1,19 @@
 <script>
   import Navbar from "./lib/navbar.svelte";
-  import Menu from "./lib/menu.svelte";
+  import Menu from "./lib2/menu.svelte";
 </script>
 <main>
   <div class="glow-bg"></div>
-  <div class="nav">
+
+  <div class="bigOG">
+      <div class="nav">
     <Navbar />
   </div>
   <div class="menu">
     <Menu />
   </div>
+  </div>
+
 </main>
 
 
@@ -17,7 +21,10 @@
 
 
 <style>
-
+.bigOG{
+  display: flex;
+  flex-direction: row;
+}
 .glow-bg {
   position: fixed;
   top: 0;

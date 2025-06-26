@@ -25,7 +25,7 @@
 <style>
 .card {
   background-color: rgb(35, 35, 35);
-  width: 195px;
+  width: 205px;
   height: 65px;
   display: flex;
   align-items: center;
