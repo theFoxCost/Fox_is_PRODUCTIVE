@@ -15,7 +15,6 @@
     }
     p{
         color:black;
-        font
         font-weight: 900;
     }
 </style>

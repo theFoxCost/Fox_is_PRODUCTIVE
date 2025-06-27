@@ -1,25 +1,27 @@
 <script>
   import { onMount } from 'svelte';
   import ProgressBar from 'progressbar.js';
-  
+
+  export let progressPercent = 75;
   let line;
 
   onMount(() => {
     line = new ProgressBar.Line('#line-container', {
-      strokeWidth: 4,
+      strokeWidth: 3,
       easing: 'easeInOut',
-      color: '#00ffe1',
-      duration: 2000,
-      trailColor: '#222',
-      trailWidth: 4,
-      svgStyle: { width: '100%', height: '100%', borderRadius: '10px' },
+      color: '#00FFE1',
+      duration: 1500,
+      trailColor: 'rgba(255, 255, 255, 0.1)',
+      trailWidth: 3,
+      svgStyle: { width: '100%', height: '100%', borderRadius: '8px' },
       text: {
         style: {
           color: '#fff',
           position: 'absolute',
           right: '0',
-          top: '-25px',
-          fontSize: '1rem',
+          top: '-20px',
+          fontSize: '0.9rem',
+          fontWeight: '600',
           padding: 0,
           margin: 0,
           transform: null
@@ -31,10 +33,17 @@
       }
     });
 
+    // Apply rounded ends to both paths
     line.svg.setAttribute('style', 'overflow: visible;');
     line.path.setAttribute('stroke-linecap', 'round');
+    line.trail.setAttribute('stroke-linecap', 'round'); // this is the missing line
 
-    line.animate(1.0);
+    // Animate to progress
+    line.animate(progressPercent / 100);
+
+    return () => {
+      line.destroy();
+    };
   });
 </script>
 
@@ -42,17 +51,17 @@
 
 <style>
   #line-container {
-    width: 80%;
-    height: 12px;
-    margin: 10px auto;
-    border-radius: 6px;
+    width: 83%;
+    height: 15px;
+    margin: 8px 0;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
     background-color: transparent;
   }
 
   #line-container > svg {
-    border-radius: 6px;
+    border-radius: 8px;
     display: block;
   }
 </style>

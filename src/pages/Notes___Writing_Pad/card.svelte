@@ -29,21 +29,18 @@
 
 <main>
   <div class="main_card">
-    <!-- Top icons -->
     <div class="tools">
       <div class="rc_logX"><Laugh color="#00FFE1" /></div>
       <div class="rc_log"><Star color="rgba(255, 255, 255, 0.637)" /></div>
       <div class="rc_log"><EllipsisIcon color="rgba(255, 255, 255, 0.637)" /></div>
     </div>
 
-    <!-- Tags -->
     <div class="tags">
       <Tag tag_ref={"tech"} />
       <Tag tag_ref={"sport"} />
       <Tag tag_ref={"work"} />
     </div>
 
-    <!-- Title -->
     <div class="title">
       <h3>Complete Nuclear Code</h3>
       <span bind:this={podcastIcon} class="tooltip-wrapper">
@@ -51,7 +48,6 @@
       </span>
     </div>
 
-    <!-- Description -->
     <div class="description">
       <p class="des">
         In the quiet hum of the circuit, a faint glint flickered beneath layers
@@ -173,16 +169,16 @@
 
   .meta {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
   .bars {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 8px;
-    width: 100%;
+    width: 45%;
   }
 
   .progress-label {
@@ -191,10 +187,9 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px rgba(255, 255, 255, 0)   ;
+     font-size: 13px;
   }
 
   .isnottxt {
@@ -212,7 +207,8 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-    margin-left: auto;
+    margin-left: 10px;
+    margin-left: 10px;
     text-align: right;
   }
 
@@ -236,5 +232,8 @@
 
   .tippy-box[data-theme~="smooth"][data-state="visible"] {
     opacity: 1;
+  }
+  p{
+    font-size: 13px;
   }
 </style>
