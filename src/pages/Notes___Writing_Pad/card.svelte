@@ -5,13 +5,12 @@
   import { onMount } from "svelte";
   import Tag from "./tag.svelte";
   import Clock from "./clock.svelte";
-  import Bar from "./bar.svelte";
-
+  import Bar from "./bar.svelte";  
+  export let isShown;
   let isnot = "is";
   let color_isnot = "white";
   let podcastIcon;
 
-  // Optional: pass progress dynamically
   let progressPercent = 75;
 
   onMount(() => {
@@ -28,13 +27,12 @@
 </script>
 
 <main>
-  <div class="main_card">
+  <div class="main_card" style="display: {isShown};">
     <div class="tools">
-      <div class="rc_logX"><Laugh color="#00FFE1" /></div>
-      <div class="rc_log"><Star color="rgba(255, 255, 255, 0.637)" /></div>
-      <div class="rc_log"><EllipsisIcon color="rgba(255, 255, 255, 0.637)" /></div>
+      <div class="rc_logX"><Laugh color="#00FFE1" size="18"/></div>
+      <div class="rc_log"><Star color="rgba(255, 255, 255, 0.637)" size="18"/></div>
+      <div class="rc_log"><EllipsisIcon color="rgba(255, 255, 255, 0.637)" size="18"/></div>
     </div>
-
     <div class="tags">
       <Tag tag_ref={"tech"} />
       <Tag tag_ref={"sport"} />
@@ -90,7 +88,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 400px;
+    width: 420px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.92);
@@ -103,8 +101,8 @@
   }
 
   .rc_logX, .rc_log {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     padding: 4px;
     border-radius: 50%;
     display: flex;
@@ -125,7 +123,7 @@
   .tags {
     display: flex;
     gap: 8px;
-    margin: 10px 0;
+    margin: 5px 0;
   }
 
   .title {
@@ -179,6 +177,7 @@
     align-items: start;
     gap: 8px;
     width: 45%;
+    margin-bottom: 10px;
   }
 
   .progress-label {
