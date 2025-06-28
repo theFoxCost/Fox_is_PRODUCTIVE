@@ -1,6 +1,4 @@
-<!-- src/lib/SpaceBackground.svelte -->
 <div class="backgroundFX">
-  <!-- ⭐ Dense Stars -->
   <div class="star-field">
     {#each Array(200) as _, i}
       <div
