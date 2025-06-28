@@ -1,4 +1,3 @@
-<!-- Search.svelte -->
 <script>
 	import { Search } from 'lucide-svelte';
 	export let searchQuery;
