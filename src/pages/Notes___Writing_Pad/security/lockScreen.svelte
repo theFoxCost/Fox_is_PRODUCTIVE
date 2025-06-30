@@ -2,14 +2,17 @@
   import moment from 'moment';
   import { onMount } from 'svelte';
   import Press from './press.svelte';
-    import { fade } from 'svelte/transition';
+  import { fade } from 'svelte/transition';
+  import Passcode from './passcode.svelte';
 
   let unlocked = false;
+  let showPass = false;
   let time = '';
   let date = '';
 
   const unlock = () => {
     unlocked = true;
+    showPass = true;
   };
 
   function handleKey(e) {
@@ -19,13 +22,11 @@
   }
 
   onMount(() => {
-    // Update time and date every second
     const interval = setInterval(() => {
       time = moment().format('h:mm:ss a');
       date = moment().format('MMMM Do YYYY');
     }, 1000);
 
-    // Listen for Enter key
     window.addEventListener('keydown', handleKey);
 
     return () => {
@@ -45,9 +46,8 @@
   </div>
 {/if}
 
-
-{#if unlocked}
-
+{#if showPass}
+  <Passcode isPassShown={true} />
 {/if}
 
 <style>
@@ -65,16 +65,12 @@
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     z-index: 10;
-    transition: transform 1s ease-in-out;
-  }
-
-  .slide-up {
-    transform: translateY(-100%);
   }
 
   .mainlog {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .clock {
@@ -88,6 +84,4 @@
     opacity: 0.8;
     font-family: jet-r;
   }
-
-
 </style>

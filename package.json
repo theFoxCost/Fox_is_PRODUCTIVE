@@ -14,10 +14,14 @@
     "vite": "^6.0.0"
   },
   "dependencies": {
+    "bad-words": "^4.0.0",
+    "bcryptjs": "^3.0.2",
     "fuse.js": "^7.1.0",
+    "loaders.css": "^0.1.2",
     "lucide-svelte": "^0.523.0",
     "moment": "^2.30.1",
     "progressbar.js": "^1.1.1",
-    "tippy.js": "^6.3.7"
+    "tippy.js": "^6.3.7",
+    "typed.js": "^2.1.0"
   }
 }
