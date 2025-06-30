@@ -1,0 +1,452 @@
+[
+  {
+    "quote": "Stay hungry, stay foolish",
+    "author": "Steve Jobs",
+    "date": "2005-06-12"
+  },
+  {
+    "quote": "Knowledge is power",
+    "author": "Francis Bacon",
+    "date": "1620-11-01"
+  },
+  {
+    "quote": "Never stop learning",
+    "author": "theFoxCost",
+    "date": "2025-06-30"
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken",
+    "author": "Oscar Wilde",
+    "date": "1880-05-10"
+  },
+  {
+    "quote": "In the middle of every difficulty lies opportunity",
+    "author": "Albert Einstein",
+    "date": "1934-06-10"
+  },
+  {
+    "quote": "The only thing we have to fear is fear itself",
+    "author": "Franklin D. Roosevelt",
+    "date": "1933-03-04"
+  },
+  {
+    "quote": "Success is not final, failure is not fatal",
+    "author": "Winston Churchill",
+    "date": "1941-10-29"
+  },
+  {
+    "quote": "The best way to predict the future is to invent it",
+    "author": "Alan Kay",
+    "date": "1971-11-01"
+  },
+  {
+    "quote": "You must be the change you wish to see in the world",
+    "author": "Mahatma Gandhi",
+    "date": "1913-08-01"
+  },
+  {
+    "quote": "Believe you can and you're halfway there",
+    "author": "Theodore Roosevelt",
+    "date": "1901-01-01"
+  },
+  {
+    "quote": "What you do speaks so loudly that I cannot hear what you say",
+    "author": "Ralph Waldo Emerson",
+    "date": "1841-03-01"
+  },
+  {
+    "quote": "The journey of a thousand miles begins with one step",
+    "author": "Lao Tzu",
+    "date": "-600-01-01"
+  },
+  {
+    "quote": "It always seems impossible until it's done",
+    "author": "Nelson Mandela",
+    "date": "1994-05-10"
+  },
+  {
+    "quote": "Do what you can, with what you have, where you are",
+    "author": "Theodore Roosevelt",
+    "date": "1903-04-01"
+  },
+  {
+    "quote": "Don't watch the clock; do what it does. Keep going",
+    "author": "Sam Levenson",
+    "date": "1950-06-01"
+  },
+  {
+    "quote": "Act as if what you do makes a difference. It does",
+    "author": "William James",
+    "date": "1890-01-01"
+  },
+  {
+    "quote": "Hardships often prepare ordinary people for an extraordinary destiny",
+    "author": "C.S. Lewis",
+    "date": "1952-05-01"
+  },
+  {
+    "quote": "Success usually comes to those who are too busy to be looking for it",
+    "author": "Henry David Thoreau",
+    "date": "1854-07-01"
+  },
+  {
+    "quote": "Try not to become a man of success. Rather become a man of value",
+    "author": "Albert Einstein",
+    "date": "1934-01-01"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams",
+    "author": "Eleanor Roosevelt",
+    "date": "1933-03-04"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do",
+    "author": "Steve Jobs",
+    "date": "2005-06-12"
+  },
+  {
+    "quote": "Opportunities don't happen. You create them",
+    "author": "Chris Grosser",
+    "date": "2012-08-01"
+  },
+  {
+    "quote": "Believe in yourself and all that you are",
+    "author": "Christian D. Larson",
+    "date": "1912-01-01"
+  },
+  {
+    "quote": "You miss 100% of the shots you don't take",
+    "author": "Wayne Gretzky",
+    "date": "1983-04-18"
+  },
+  {
+    "quote": "Don’t let yesterday take up too much of today",
+    "author": "Will Rogers",
+    "date": "1935-09-15"
+  },
+  {
+    "quote": "If you are not willing to risk the usual, you will have to settle for the ordinary",
+    "author": "Jim Rohn",
+    "date": "1985-02-10"
+  },
+  {
+    "quote": "Great minds discuss ideas; average minds discuss events; small minds discuss people",
+    "author": "Eleanor Roosevelt",
+    "date": "1935-09-12"
+  },
+  {
+    "quote": "The only limit to our realization of tomorrow is our doubts of today",
+    "author": "Franklin D. Roosevelt",
+    "date": "1944-04-13"
+  },
+  {
+    "quote": "Everything you can imagine is real",
+    "author": "Pablo Picasso",
+    "date": "1923-03-20"
+  },
+  {
+    "quote": "You can’t use up creativity. The more you use, the more you have",
+    "author": "Maya Angelou",
+    "date": "1982-05-10"
+  },
+  {
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us",
+    "author": "Ralph Waldo Emerson",
+    "date": "1841-03-01"
+  },
+  {
+    "quote": "Imagination is more important than knowledge",
+    "author": "Albert Einstein",
+    "date": "1929-11-20"
+  },
+  {
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all",
+    "author": "Oscar Wilde",
+    "date": "1882-06-18"
+  },
+  {
+    "quote": "I have not failed. I've just found 10,000 ways that won't work",
+    "author": "Thomas Edison",
+    "date": "1890-02-12"
+  },
+  {
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail",
+    "author": "Ralph Waldo Emerson",
+    "date": "1847-07-04"
+  },
+  {
+    "quote": "Success is how high you bounce when you hit bottom",
+    "author": "George S. Patton",
+    "date": "1942-03-20"
+  },
+  {
+    "quote": "You cannot shake hands with a clenched fist",
+    "author": "Indira Gandhi",
+    "date": "1970-09-15"
+  },
+  {
+    "quote": "Not everything that is faced can be changed, but nothing can be changed until it is faced",
+    "author": "James Baldwin",
+    "date": "1962-05-10"
+  },
+  {
+    "quote": "Dream big and dare to fail",
+    "author": "Norman Vaughan",
+    "date": "1992-06-01"
+  },
+  {
+    "quote": "Do not wait to strike till the iron is hot, but make it hot by striking",
+    "author": "William Butler Yeats",
+    "date": "1911-08-21"
+  },
+  {
+    "quote": "Twenty years from now you will be more disappointed by the things that you didn’t do",
+    "author": "Mark Twain",
+    "date": "1900-06-15"
+  },
+  {
+    "quote": "Limit your ‘always’ and your ‘nevers’",
+    "author": "Amy Poehler",
+    "date": "2010-11-11"
+  },
+  {
+    "quote": "Nothing will work unless you do",
+    "author": "Maya Angelou",
+    "date": "1975-01-10"
+  },
+  {
+    "quote": "Try to be a rainbow in someone’s cloud",
+    "author": "Maya Angelou",
+    "date": "1988-09-18"
+  },
+  {
+    "quote": "Happiness is not something ready made. It comes from your own actions",
+    "author": "Dalai Lama",
+    "date": "1995-04-12"
+  },
+  {
+    "quote": "You are never too old to set another goal or to dream a new dream",
+    "author": "C.S. Lewis",
+    "date": "1955-11-01"
+  },
+  {
+    "quote": "I alone cannot change the world, but I can cast a stone across the water",
+    "author": "Mother Teresa",
+    "date": "1979-12-01"
+  },
+  {
+    "quote": "Let us remember: One book, one pen, one child, and one teacher can change the world",
+    "author": "Malala Yousafzai",
+    "date": "2013-07-12"
+  },
+  {
+    "quote": "The mind is everything. What you think you become",
+    "author": "Buddha",
+    "date": "-400-01-01"
+  },
+  {
+    "quote": "Turn your wounds into wisdom",
+    "author": "Oprah Winfrey",
+    "date": "1998-09-01"
+  },
+  {
+    "quote": "The secret of getting ahead is getting started",
+    "author": "Mark Twain",
+    "date": "1895-01-01"
+  },
+  {
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now",
+    "author": "Chinese Proverb",
+    "date": "-500-01-01"
+  },
+  {
+    "quote": "An unexamined life is not worth living",
+    "author": "Socrates",
+    "date": "-399-03-01"
+  },
+  {
+    "quote": "Your time is limited, so don’t waste it living someone else’s life",
+    "author": "Steve Jobs",
+    "date": "2005-06-12"
+  },
+  {
+    "quote": "Whether you think you can or you think you can’t, you’re right",
+    "author": "Henry Ford",
+    "date": "1922-03-10"
+  },
+  {
+    "quote": "The only person you are destined to become is the person you decide to be",
+    "author": "Ralph Waldo Emerson",
+    "date": "1841-02-21"
+  },
+  {
+    "quote": "We must not allow other people’s limited perceptions to define us",
+    "author": "Virginia Satir",
+    "date": "1980-01-12"
+  },
+  {
+    "quote": "Nothing is impossible. The word itself says 'I'm possible!'",
+    "author": "Audrey Hepburn",
+    "date": "1960-07-15"
+  },
+  {
+    "quote": "You become what you believe",
+    "author": "Oprah Winfrey",
+    "date": "1990-04-10"
+  },
+  {
+    "quote": "I am not a product of my circumstances. I am a product of my decisions",
+    "author": "Stephen Covey",
+    "date": "1989-01-01"
+  },
+  {
+    "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind",
+    "author": "Henry Ford",
+    "date": "1927-07-25"
+  },
+  {
+    "quote": "It’s not whether you get knocked down, it’s whether you get up",
+    "author": "Vince Lombardi",
+    "date": "1965-02-22"
+  },
+  {
+    "quote": "If you want to lift yourself up, lift up someone else",
+    "author": "Booker T. Washington",
+    "date": "1901-05-10"
+  },
+  {
+    "quote": "Don’t count the days, make the days count",
+    "author": "Muhammad Ali",
+    "date": "1974-10-30"
+  },
+  {
+    "quote": "Life is 10% what happens to us and 90% how we react to it",
+    "author": "Charles R. Swindoll",
+    "date": "1985-08-01"
+  },
+  {
+    "quote": "The only true wisdom is in knowing you know nothing",
+    "author": "Socrates",
+    "date": "-399-02-01"
+  },
+  {
+    "quote": "In order to be irreplaceable one must always be different",
+    "author": "Coco Chanel",
+    "date": "1950-03-15"
+  },
+  {
+    "quote": "If you judge people, you have no time to love them",
+    "author": "Mother Teresa",
+    "date": "1979-11-20"
+  },
+  {
+    "quote": "Learning never exhausts the mind",
+    "author": "Leonardo da Vinci",
+    "date": "1500-04-01"
+  },
+  {
+    "quote": "Knowing yourself is the beginning of all wisdom",
+    "author": "Aristotle",
+    "date": "-350-01-01"
+  },
+  {
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment",
+    "author": "Buddha",
+    "date": "-400-01-01"
+  },
+  {
+    "quote": "The weak can never forgive. Forgiveness is the attribute of the strong",
+    "author": "Mahatma Gandhi",
+    "date": "1925-05-15"
+  },
+  {
+    "quote": "I can't change the direction of the wind, but I can adjust my sails",
+    "author": "Jimmy Dean",
+    "date": "1995-06-01"
+  },
+  {
+    "quote": "Don’t cry because it’s over, smile because it happened",
+    "author": "Dr. Seuss",
+    "date": "1965-09-09"
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans",
+    "author": "John Lennon",
+    "date": "1970-10-09"
+  },
+  {
+    "quote": "Logic will get you from A to B. Imagination will take you everywhere",
+    "author": "Albert Einstein",
+    "date": "1921-05-02"
+  },
+  {
+    "quote": "A person who never made a mistake never tried anything new",
+    "author": "Albert Einstein",
+    "date": "1931-04-01"
+  },
+  {
+    "quote": "Kindness is a language which the deaf can hear and the blind can see",
+    "author": "Mark Twain",
+    "date": "1890-01-01"
+  },
+  {
+    "quote": "Silence is a source of great strength",
+    "author": "Lao Tzu",
+    "date": "-600-01-01"
+  },
+  {
+    "quote": "Only in the darkness can you see the stars",
+    "author": "Martin Luther King Jr.",
+    "date": "1963-08-28"
+  },
+  {
+    "quote": "Courage is resistance to fear, mastery of fear, not absence of fear",
+    "author": "Mark Twain",
+    "date": "1907-11-20"
+  },
+  {
+    "quote": "The most difficult thing is the decision to act, the rest is merely tenacity",
+    "author": "Amelia Earhart",
+    "date": "1937-05-20"
+  },
+  {
+    "quote": "Don’t be afraid to give up the good to go for the great",
+    "author": "John D. Rockefeller",
+    "date": "1920-01-01"
+  },
+  {
+    "quote": "To succeed in life, you need two things: ignorance and confidence",
+    "author": "Mark Twain",
+    "date": "1892-03-21"
+  },
+  {
+    "quote": "Whatever the mind of man can conceive and believe, it can achieve",
+    "author": "Napoleon Hill",
+    "date": "1937-01-01"
+  },
+  {
+    "quote": "The way to get started is to quit talking and begin doing",
+    "author": "Walt Disney",
+    "date": "1947-04-12"
+  },
+  {
+    "quote": "Success is going from failure to failure without losing enthusiasm",
+    "author": "Winston Churchill",
+    "date": "1941-10-15"
+  },
+  {
+    "quote": "Do what you love and success will follow",
+    "author": "Oprah Winfrey",
+    "date": "1997-11-20"
+  },
+  {
+    "quote": "Creativity is intelligence having fun",
+    "author": "Albert Einstein",
+    "date": "1930-04-01"
+  },
+  {
+    "quote": "Education is the most powerful weapon which you can use to change the world",
+    "author": "Nelson Mandela",
+    "date": "1990-07-12"
+  }
+]

@@ -1,11 +1,9 @@
 <script>
-  import Card from "../pages/Notes___Writing_Pad/card.svelte";
-  import LockScreen from "../pages/Notes___Writing_Pad/security/lockScreen.svelte";
+  import Content from "../pages/Notes___Writing_Pad/loading_page/content.svelte";
 </script>
 
 <main class="big_main">
-  <Card isShown="none" />
-    <LockScreen />
+  <Content />
 </main>
 
 <style>
@@ -19,6 +17,9 @@
   border-radius: 5px;
   border: rgba(255, 255, 255, 0.2) 1px solid;
   backdrop-filter: blur(5px); 
+  overflow-y: scroll;
+  scrollbar-width: none; 
 }
+
 
 </style>
